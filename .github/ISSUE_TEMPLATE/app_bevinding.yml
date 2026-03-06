@@ -18,6 +18,7 @@ body:
         - "✨ Wens (Ik heb een idee voor een nieuwe functie)"        
         - "💄 Cosmetisch (Layout, tekstfoutje, kleur)"
         - "⚙️ Functioneel (Werking is niet logisch of onduidelijk)"
+        - "🛠️ Technisch (De app werkt technisch niet conform verwachting)"        
         - "🧮 Berekening (De rekenuitkomst is niet conform verwachting)"
         - "🚫 BLOKKEREND (App crasht of ik kan niet verder)"
     validations:
