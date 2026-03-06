@@ -15,9 +15,10 @@ body:
       description: "Wat voor soort bevinding is dit?"
       options:
         - "❓ Vraag (Ik snap niet hoe iets werkt)"
+        - "✨ Wens (Ik heb een idee voor een nieuwe functie)"        
         - "💄 Cosmetisch (Layout, tekstfoutje, kleur)"
-        - "⚙️ Functioneel (Knop werkt niet, scherm laadt niet)"
-        - "🧮 Reken bevinding (Berekening of percentage klopt niet)"
+        - "⚙️ Functioneel (Werking is niet logisch of onduidelijk)"
+        - "🧮 Berekening (De rekenuitkomst is niet conform verwachting)"
         - "🚫 BLOKKEREND (App crasht of ik kan niet verder)"
     validations:
       required: true
@@ -29,7 +30,7 @@ body:
       description: "Op welk toestel test je?"
       placeholder: "bijv. Samsung S24, iPhone 15"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: description
