@@ -1,0 +1,47 @@
+name: "📝 App Bevinding"
+description: "Meld een vraag, fout of blokkade in de app"
+title: "[BEVINDING]: "
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bedankt voor het testen! Gebruik dit formulier om je bevindingen door te geven.
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Type bevinding"
+      description: "Wat voor soort bevinding is dit?"
+      options:
+        - "❓ Vraag (Ik snap niet hoe iets werkt)"
+        - "💄 Cosmetisch (Layout, tekstfoutje, kleur)"
+        - "⚙️ Functioneel (Knop werkt niet, scherm laadt niet)"
+        - "🧮 Reken bevinding (Berekening of percentage klopt niet)"
+        - "🚫 BLOKKEREND (App crasht of ik kan niet verder)"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: "Toestel Model"
+      description: "Op welk toestel test je?"
+      placeholder: "bijv. Samsung S24, iPhone 15"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "Omschrijving"
+      description: "Wat heb je geconstateerd?"
+      placeholder: "Beschrijf hier kort en krachtig wat er aan de hand is."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Wat zou er moeten gebeuren?"
+      placeholder: "Bijv: Het percentage voor Nederland zou 36% moeten zijn."
