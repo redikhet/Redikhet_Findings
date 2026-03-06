@@ -21,7 +21,6 @@ Heb je een bug gevonden (bijvoorbeeld tijdens de overstap naar de nieuwe beveili
 
 Omdat dit een publieke tracker is, vragen we je om alert te zijn op je privacy:
 * Deel **nooit** persoonlijke financiële data of screenshots met herleidbare gegevens.
-* Deel **nooit** je `hivekey` of andere beveiligingssleutels.
 * Logbestanden die je deelt mogen geen wachtwoorden of persoonlijke tokens bevatten.
 
 ---
