@@ -1,49 +1,57 @@
-name: "📝 App Bevinding"
-description: "Meld een vraag, fout of blokkade in de app"
-title: "[BEVINDING]: "
+name: "📝 App Finding"
+description: "Report a question, bug, or blocker in the app"
+title: "[FINDING]: "
 labels: ["triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Bedankt voor het testen! Gebruik dit formulier om je bevindingen door te geven.
+        Thank you for testing! Please use this form to submit your findings.
 
   - type: dropdown
     id: severity
     attributes:
-      label: "Type bevinding"
-      description: "Wat voor soort bevinding is dit?"
+      label: "Type of finding"
+      description: "What kind of finding is this?"
       options:
-        - "❓ Vraag (Ik snap niet hoe iets werkt)"
-        - "✨ Wens (Ik heb een idee voor een nieuwe functie)"        
-        - "💄 Cosmetisch (Layout, tekstfoutje, kleur)"
-        - "⚙️ Functioneel (Werking is niet logisch of onduidelijk)"
-        - "🛠️ Technisch (De app werkt technisch niet conform verwachting)"        
-        - "🧮 Berekening (De rekenuitkomst is niet conform verwachting)"
-        - "🚫 BLOKKEREND (App crasht of ik kan niet verder)"
+        - "❓ Question (I don't understand how something works)"
+        - "✨ Feature Request (I have an idea for a new function)"
+        - "💄 Cosmetic (Layout, typo, color issue)"
+        - "⚙️ Functional (The logic is unclear or not working as expected)"
+        - "🛠️ Technical (The app is showing erroneous behaviour)"
+        - "🧮 Calculation (The result of a calculation is incorrect)"
+        - "🚫 BLOCKING (App crashes or I cannot proceed)"
     validations:
       required: true
 
   - type: input
     id: device
     attributes:
-      label: "Toestel Model"
-      description: "Op welk toestel test je?"
-      placeholder: "bijv. Samsung S24, iPhone 15"
+      label: "Device Model"
+      description: "Which device are you testing on?"
+      placeholder: "e.g., Samsung S24, iPhone 15"
     validations:
       required: false
 
   - type: textarea
     id: description
     attributes:
-      label: "Omschrijving"
-      description: "Wat heb je geconstateerd?"
-      placeholder: "Beschrijf hier kort en krachtig wat er aan de hand is."
+      label: "Description"
+      description: "What did you observe?"
+      placeholder: "Briefly describe the issue here."
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: "Wat zou er moeten gebeuren?"
-      placeholder: "Bijv: Het percentage voor Nederland zou 36% moeten zijn."
+      label: "Expected Result"
+      placeholder: "e.g., The percentage for the Netherlands should be 36%."
+
+  - type: checkboxes
+    id: privacy_check
+    attributes:
+      label: "Privacy & Data"
+      options:
+        - label: "I have NOT shared any personal financial data or sensitive information."
+          required: true
