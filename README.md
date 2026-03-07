@@ -1,29 +1,29 @@
 # 📱 Redikhet Feedback & Bug Tracker
 
-Welkom bij de centrale plek voor het melden van bevindingen, bugs en suggesties voor de Android app Redikhet. 
+Welcome to the central hub for reporting findings, bugs, and suggestions for the **Redikhet** Android app.
 
-> **Let op:** Deze repository bevat **geen broncode**. Dit is uitsluitend een publiek portaal voor gebruikers en testers om de stabiliteit en kwaliteit van de app te verbeteren.
-
----
-
-## 🛠 Hoe meld ik een bevinding?
-
-Heb je een bug gevonden (bijvoorbeeld tijdens de overstap naar de nieuwe beveiligingsversie) of heb je een suggestie? Volg dan deze stappen:
-
-1. Ga naar het tabblad [Issues](../../issues).
-2. Klik op de groene knop **'New Issue'**.
-3. Kies het relevante sjabloon (Bug Report of Feature Request).
-4. Vul zoveel mogelijk details in (Android-versie, toesteltype, etc.).
+> **Note:** This repository **does not contain any source code**. It is strictly a public portal for users and testers to help improve the app's stability and quality.
 
 ---
 
-## 🔒 Privacy & Veiligheid
+## 🛠 How do I report a finding?
 
-Omdat dit een publieke tracker is, vragen we je om alert te zijn op je privacy:
-* Deel **nooit** persoonlijke financiële data of screenshots met herleidbare gegevens.
-* Logbestanden die je deelt mogen geen wachtwoorden of persoonlijke tokens bevatten.
+Found a bug or have a suggestion? Please follow these steps:
+
+1. Go to the [Issues](../../issues) tab.
+2. Click the green **'New Issue'** button.
+3. Choose the relevant template (App Finding or Feature Request).
+4. Provide as much detail as possible (Android version, device model, etc.).
+
+---
+
+## 🔒 Privacy & Security
+
+Since this is a public tracker, we ask you to be mindful of your privacy:
+* **Never** share personal financial data or screenshots containing identifiable information.
+* Log files you share must **not** contain passwords or personal tokens.
 
 ---
 
 ## 📧 Contact
-Ben je een tester en heb je een vraag die niet publiek gedeeld kan worden? Neem dan contact op via: `admin@redikhet.nl`.
+Are you a tester with a question that cannot be shared publicly? Please contact us at: `admin@redikhet.nl`.
