@@ -48,10 +48,3 @@ body:
       label: "Expected Result"
       placeholder: "e.g., The percentage for the Netherlands should be 36%."
 
-  - type: checkboxes
-    id: privacy_check
-    attributes:
-      label: "Privacy & Data"
-      options:
-        - label: "I have NOT shared any personal financial data or sensitive information."
-          required: true
