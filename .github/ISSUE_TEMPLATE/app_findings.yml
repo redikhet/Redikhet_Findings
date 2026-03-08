@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for testing! Please use this form to submit your findings.
+        Thank you for submitting! Please use this form to submit your findings.
 
   - type: dropdown
     id: severity
@@ -20,6 +20,7 @@ body:
         - "⚙️ Functional (The logic is unclear or not working as expected)"
         - "🛠️ Technical (The app is showing erroneous behaviour)"
         - "🧮 Calculation (The result of a calculation is incorrect)"
+        - "🔧 Maintenance (Updates, code cleanup, or technical debt)"
         - "🚫 BLOCKING (App crashes or I cannot proceed)"
     validations:
       required: true
